@@ -7,7 +7,7 @@ public class MinhaApp {
 
         String romano = "MCMXXVIII";
         Contexto context = new Contexto(romano);
-        
+
         List<Expressao> tree = new ArrayList<>();
         tree.add(new Milhar());
         tree.add(new Centena());
